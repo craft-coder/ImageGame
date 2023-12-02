@@ -1,0 +1,6 @@
+[
+    {
+        "name": "gcc & vcpkg",
+        "toolchainFile": "cmake/gcc-toolchain.cmake"
+    }
+]

@@ -1,0 +1,2 @@
+add_subdirectory(ImageGameLib)
+add_subdirectory(ImageGame)
