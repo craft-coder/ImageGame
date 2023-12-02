@@ -58,3 +58,15 @@ To build the software follow these steps:
 1. Execute *CMake: Select a Kit* and select the **gcc & vcpkg** kit
 1. Execute *CMake: Configure*
 1. Execute *CMake: Build*
+
+### Executing the **ImageGame**
+
+If you've built the **ImageGame** executable and execute it you will see the following example screen
+
+![ImageGame Screenshow](doc/ImageGameScreenshot.png)
+
+### Executing the ImageGameTest in Visual Studio Code
+
+You can easily acces all the unit tests within Visual Studio Code (and its TestMate C++ extension). The testing will look like this
+
+![Test Execution Screenshot](doc/TestExecutionScreenshot.png)
