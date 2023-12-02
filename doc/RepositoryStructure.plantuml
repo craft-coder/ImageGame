@@ -1,0 +1,16 @@
+@startuml
+
+folder "ImageGame Repository" {
+    component ImageGameLib 
+    artifact ImageGameTest
+    component GoogleTest
+    artifact ImageGame
+    component "Dear ImGui" as ImGui
+
+    ImageGameLib <---- ImageGame
+    ImageGameLib <---- ImageGameTest
+    GoogleTest <-- ImageGameTest
+    ImGui <-- ImageGame 
+}
+
+@enduml

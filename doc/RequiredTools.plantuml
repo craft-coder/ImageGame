@@ -1,0 +1,16 @@
+@startuml
+skinparam linetype polyline
+
+collections "ImageGame Repository" as ImageGame
+
+component CMake
+component "Visual Studio Code" as code
+component "Compiler\n(e.g. gcc, clang, ...)" as Compiler
+component vcpkg
+
+ImageGame ---> CMake : "Description of how to\nbuild the software"
+ImageGame ---> code : IDE
+ImageGame ---> Compiler : Building the executable
+ImageGame ---> vcpkg: Dependency Manager
+
+@enduml
